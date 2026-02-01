@@ -493,7 +493,7 @@ function createResultScene(game, theme, score) {
 
 		const info = new g.Label({
 			scene,
-			text: "ランキング対応: 環境が submitScore を提供している場合は自動送信します。",
+			text: "ランキング対応: gameState.score にスコアを代入すると送信されます。",
 			font: fontSmall,
 			fontSize: 18,
 			textColor: theme.subText,
@@ -503,13 +503,12 @@ function createResultScene(game, theme, score) {
 		});
 		scene.append(info);
 
-		// ランキング送信(存在する場合)
-		try {
-			if (typeof game.vars === "object" && game.vars && typeof game.vars.submitScore === "function") {
-				game.vars.submitScore(score);
+		// ランキング送信 (ニコ生ランキング仕様)
+		if (typeof game.vars === "object" && game.vars) {
+			if (typeof game.vars.gameState !== "object" || !game.vars.gameState) {
+				game.vars.gameState = {};
 			}
-		} catch (e) {
-			// noop
+			game.vars.gameState.score = score;
 		}
 
 		// ボタン
