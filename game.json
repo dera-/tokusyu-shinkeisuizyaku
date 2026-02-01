@@ -1,0 +1,179 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"bgm_smash_bom": {
+			"type": "audio",
+			"path": "audio/bgm_smash_bom",
+			"systemId": "sound",
+			"duration": 140853,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"se_huseikai": {
+			"type": "audio",
+			"path": "audio/se_huseikai",
+			"systemId": "sound",
+			"duration": 5000,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"se_seikai": {
+			"type": "audio",
+			"path": "audio/se_seikai",
+			"systemId": "sound",
+			"duration": 5000,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"image_1": {
+			"type": "image",
+			"path": "image/image_1.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_10": {
+			"type": "image",
+			"path": "image/image_10.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_11": {
+			"type": "image",
+			"path": "image/image_11.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_12": {
+			"type": "image",
+			"path": "image/image_12.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_13": {
+			"type": "image",
+			"path": "image/image_13.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_2": {
+			"type": "image",
+			"path": "image/image_2.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_3": {
+			"type": "image",
+			"path": "image/image_3.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_4": {
+			"type": "image",
+			"path": "image/image_4.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_5": {
+			"type": "image",
+			"path": "image/image_5.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_6": {
+			"type": "image",
+			"path": "image/image_6.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_7": {
+			"type": "image",
+			"path": "image/image_7.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_8": {
+			"type": "image",
+			"path": "image/image_8.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_9": {
+			"type": "image",
+			"path": "image/image_9.png",
+			"width": 214,
+			"height": 350
+		},
+		"image_kakeru": {
+			"type": "image",
+			"path": "image/image_kakeru.png",
+			"width": 354,
+			"height": 557
+		},
+		"image_kakewaru": {
+			"type": "image",
+			"path": "image/image_kakewaru.png",
+			"width": 354,
+			"height": 557
+		},
+		"image_tasu": {
+			"type": "image",
+			"path": "image/image_tasu.png",
+			"width": 354,
+			"height": 557
+		},
+		"image_tasuhiku": {
+			"type": "image",
+			"path": "image/image_tasuhiku.png",
+			"width": 354,
+			"height": 557
+		},
+		"image_ura": {
+			"type": "image",
+			"path": "image/image_ura.png",
+			"width": 214,
+			"height": 350
+		},
+		"niconico_tramp": {
+			"type": "image",
+			"path": "image/niconico_tramp.png",
+			"width": 3000,
+			"height": 1400
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 82
+			}
+		}
+	}
+}
